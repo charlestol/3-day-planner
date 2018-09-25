@@ -1,0 +1,17 @@
+.btn-default {
+  background-color: transparent;
+  border: none;
+  color: red;
+}
+
+.cell {
+  vertical-align: middle;
+  padding: 10px;
+  /* background-color: white; */
+}
+
+.cell h2 {
+  border-color: gray;
+  border-width: thin;
+  border-style: solid;
+}
