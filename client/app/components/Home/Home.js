@@ -272,7 +272,6 @@ class Home extends Component {
                 name=""
                 value={signUpPassword}
                 onChange={this.onTextboxChangeSignUpPassword}
-                required
               />
               <label>Password</label>
               <br />
@@ -285,9 +284,8 @@ class Home extends Component {
 
     return (
       <div className="loggedIn">
-        <p>Account</p>
         <Planner />
-        <button onClick={this.logout}>Logout</button>
+        <button id="logOut" onClick={this.logout}>Logout</button>
       </div>
     );
   }

@@ -50,15 +50,15 @@ export class Textbox extends Component{
             </select>
           </fieldset>
           <fieldset className="inputBox">
+            <label> YOUR TASK : </label>
             <input
               type="text"
               id="aim"
-              name=""
+              placeholder="TYPE HERE"
               value={this.state.term}
               onChange={this.handleChange}
               autocomplete="off"
             />
-            <label>TYPE YOUR GOAL </label>
           </fieldset>
           <button className="btn btn-warning btn-ghost">I WILL DO THIS</button>
         </form>

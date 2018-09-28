@@ -1,5 +1,6 @@
 .container {
   text-align: center;
+  letter-spacing: 1px;
   width: 100%;
   margin-bottom: 30px;
 }
@@ -8,80 +9,45 @@
   display: inline-block;
 }
 
-#aim, #day {
+.form .btn {
+  background: transparent;
+  border: none;
+  outline: none;
   font-size: 16px;
-  color: white;
-}
-
-.btn {
-  width: 50%;
-  height: 40px;
-  margin-top: 10px;
-  border: 4px solid #EC7063;
-  border-radius: 20%;
-  background-color: transparent;
   color: #fff;
-  font-size: 16px;
-
+  background: #EC7063;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .form fieldset {
   border: none;
 }
 
-.form-group label {
+.form label {
   display: block;
 }
 
 .form-group select {
   border: none;
-  background: transparent;
+  outline: none;
+  background-color: #000;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
-.form .inputBox input {
+.container .inputBox input {
   width: 400px;
   text-align: center;
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
-}
-
-.form .inputBox label
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: none;
-  transition: 0.5s;
-}
-
-/* .form .inputBox input:focus ~ label,
-.form .inputBox input:valid ~ label
-{
-  top: -20px;
-  left: 0;
-  color: #EC7063;
-  font-size: 14px;
-} */
-
-::placeholder {
-    color: white;
-    opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: white;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-   color: white;
 }
